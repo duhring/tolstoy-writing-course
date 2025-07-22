@@ -1,0 +1,342 @@
+.student-submissions {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.submissions-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.submissions-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.submissions-header p {
+  font-size: 1.2rem;
+  color: #5a6c7d;
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.submissions-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.submissions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.upload-section {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e1e8ed;
+}
+
+.upload-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.file-input {
+  padding: 0.5rem;
+  border: 2px dashed #3498db;
+  border-radius: 4px;
+  background: white;
+}
+
+.upload-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.upload-btn:hover {
+  background: #2980b9;
+}
+
+.submissions-grid h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.submission-card {
+  background: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submission-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.submission-card.selected {
+  border-color: #3498db;
+  background: #f8f9fa;
+}
+
+.submission-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.submission-header h4 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-draft {
+  background: #f39c12;
+  color: white;
+}
+
+.status-submitted {
+  background: #3498db;
+  color: white;
+}
+
+.status-reviewed {
+  background: #27ae60;
+  color: white;
+}
+
+.submission-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #5a6c7d;
+  margin-bottom: 0.5rem;
+}
+
+.submission-preview {
+  color: #5a6c7d;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.comment-count {
+  color: #3498db;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.submission-details {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.submission-title-area {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+}
+
+.submission-title-area h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.submission-info {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.submission-text {
+  padding: 2rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.submission-text p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.comments-section {
+  padding: 2rem;
+}
+
+.comments-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.comment {
+  background: #f8f9fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment.instructor {
+  border-left: 4px solid #e74c3c;
+}
+
+.comment.peer {
+  border-left: 4px solid #3498db;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.comment-author {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.comment-type {
+  background: #3498db;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.comment.instructor .comment-type {
+  background: #e74c3c;
+}
+
+.comment-time {
+  font-size: 0.8rem;
+  color: #5a6c7d;
+}
+
+.comment-content {
+  margin: 0;
+  line-height: 1.5;
+  color: #2c3e50;
+}
+
+.add-comment {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e8ed;
+}
+
+.add-comment h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.comment-submit-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.comment-submit-btn:hover:not(:disabled) {
+  background: #219a52;
+}
+
+.comment-submit-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.placeholder h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.placeholder p {
+  color: #5a6c7d;
+}
+
+@media (max-width: 768px) {
+  .submissions-content {
+    grid-template-columns: 1fr;
+  }
+}

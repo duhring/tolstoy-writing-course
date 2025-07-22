@@ -1,0 +1,166 @@
+.week-module {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.week-badge {
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.module-content h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.module-description {
+  font-size: 1.2rem;
+  color: #5a6c7d;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.learning-objectives {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.learning-objectives h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.learning-objectives ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.learning-objectives li {
+  padding: 0.5rem 0;
+  border-left: 4px solid #27ae60;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  background: white;
+  border-radius: 0 4px 4px 0;
+}
+
+.tolstoy-passages {
+  margin-bottom: 2rem;
+}
+
+.tolstoy-passages h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.passage-card {
+  background: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.passage-card h3 {
+  color: #8b4513;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.passage-card blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #2c3e50;
+  border-left: 4px solid #8b4513;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.analysis {
+  color: #5a6c7d;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.practice-section {
+  background: #f0f8ff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.practice-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.writing-prompt h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.writing-prompt p {
+  color: #5a6c7d;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.writing-area {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.writing-area:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.submit-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #219a52;
+}

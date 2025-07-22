@@ -1,0 +1,222 @@
+.analysis-table {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.table-header {
+  background: #2c3e50;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.table-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.table-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.control-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.control-btn.expand {
+  border-color: #27ae60;
+}
+
+.control-btn.collapse {
+  border-color: #e74c3c;
+}
+
+.export-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.export-select {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.export-select option {
+  background: #2c3e50;
+  color: white;
+}
+
+.export-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.export-btn:hover {
+  background: #2980b9;
+}
+
+.table-content {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.passage-row {
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.passage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.passage-header:hover {
+  background-color: #f8f9fa;
+}
+
+.passage-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.character-name {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.technique-tag {
+  background: #3498db;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.expand-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3498db;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+}
+
+.passage-details {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  background: #f8f9fa;
+  border-top: 1px solid #e1e8ed;
+}
+
+.passage-text,
+.passage-analysis,
+.passage-location {
+  margin-bottom: 1.5rem;
+}
+
+.passage-text h4,
+.passage-analysis h4,
+.passage-location h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.passage-text blockquote {
+  background: white;
+  border-left: 4px solid #8b4513;
+  margin: 0;
+  padding: 1rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.passage-analysis p,
+.passage-location p {
+  color: #5a6c7d;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.passage-location p {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.table-summary {
+  background: #ecf0f1;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: #5a6c7d;
+  font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .table-controls {
+    justify-content: center;
+  }
+  
+  .passage-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .character-name {
+    font-size: 1rem;
+  }
+  
+  .passage-details {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
