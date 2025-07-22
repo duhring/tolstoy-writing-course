@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tolstoy-writing-course/static/css/main.c6d33bdc.css",
+    "main.js": "/tolstoy-writing-course/static/js/main.5ac8ca38.js",
+    "index.html": "/tolstoy-writing-course/index.html",
+    "main.c6d33bdc.css.map": "/tolstoy-writing-course/static/css/main.c6d33bdc.css.map",
+    "main.5ac8ca38.js.map": "/tolstoy-writing-course/static/js/main.5ac8ca38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6d33bdc.css",
+    "static/js/main.5ac8ca38.js"
+  ]
+}
