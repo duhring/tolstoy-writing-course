@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Embodied Narration: Writing with Tolstoy's Techniques
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for teaching high school students the art of "embodied narration" using Tolstoy's *War and Peace* as a model.
+
+## Course Overview
+
+Students will analyze vivid moments in *War and Peace* where Tolstoy uses physical cues (gesture, gait, facial expression, posture) to illuminate character and scene. Each week, students will observe, discuss, and practice these techniques in their own writing.
+
+## Features
+
+- **8-Week Course Structure**: Progressive lessons from introduction to synthesis
+- **Interactive Analysis Tables**: Expandable/collapsible tables of Tolstoy's physical cues
+- **Character Dossiers**: Dynamic profiles tracking physical motifs
+- **Student Submissions**: Upload, comment, and peer review system
+- **Export Functionality**: CSV/Sheets export of analytic tables and student work
+
+## Technology Stack
+
+- React 18 + TypeScript
+- React Router for navigation
+- Modern CSS3 responsive design
+- Interactive components with state management
 
 ## Available Scripts
 
