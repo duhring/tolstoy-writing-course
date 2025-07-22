@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/tolstoy-writing-course/static/css/main.c6d33bdc.css",
-    "main.js": "/tolstoy-writing-course/static/js/main.5ac8ca38.js",
+    "main.css": "/tolstoy-writing-course/static/css/main.5e8d9e02.css",
+    "main.js": "/tolstoy-writing-course/static/js/main.8a084524.js",
+    "static/js/453.f0022d02.chunk.js": "/tolstoy-writing-course/static/js/453.f0022d02.chunk.js",
     "index.html": "/tolstoy-writing-course/index.html",
-    "main.c6d33bdc.css.map": "/tolstoy-writing-course/static/css/main.c6d33bdc.css.map",
-    "main.5ac8ca38.js.map": "/tolstoy-writing-course/static/js/main.5ac8ca38.js.map"
+    "main.5e8d9e02.css.map": "/tolstoy-writing-course/static/css/main.5e8d9e02.css.map",
+    "main.8a084524.js.map": "/tolstoy-writing-course/static/js/main.8a084524.js.map",
+    "453.f0022d02.chunk.js.map": "/tolstoy-writing-course/static/js/453.f0022d02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d33bdc.css",
-    "static/js/main.5ac8ca38.js"
+    "static/css/main.5e8d9e02.css",
+    "static/js/main.8a084524.js"
   ]
 }
